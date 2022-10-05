@@ -13,9 +13,11 @@ class Counter extends Component {
         return (
             <div className="Count-Page">
                 <div>
-                    <h1>The Button has been clicked <span>{count}</span> times.</h1>
-                    <p>Click the button to increase the count!</p>
-                    <button onClick={this.onIncrement}>Click</button>
+                    <h1>The Button has been clicked <span className="count">{count}</span> times.</h1>
+                    <p className="para">Click the button to increase the count!</p>
+                    <div className="btn-container">
+                        <button className="btn" onClick={this.onIncrement}>Click</button>
+                    </div>
                 </div>
             </div>
         )

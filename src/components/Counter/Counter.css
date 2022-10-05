@@ -1,9 +1,35 @@
 .Count-Page {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 30px;
-    background-color: aqua;
+    background-color: whitesmoke;
     height: 100vh;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.para {
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+.btn {
+    padding: 15px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 0px;
+}
+
+.count {
+    color: red;
 }
