@@ -5,14 +5,13 @@
     align-items: center;
     font-weight: bold;
     font-size: 30px;
-    background-color: whitesmoke;
+    background-color: rgb(8, 6, 6);
     height: 100vh;
 }
 
 .btn-container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .para {
@@ -20,16 +19,33 @@
     color: red;
     font-style: italic;
 }
-.btn {
+.btn-1 {
     padding: 15px;
     color: white;
-    background-color: blue;
+    background-color: rgb(41, 62, 255);
     font-weight: bold;
     border-radius: 10px;
     font-size: 25px;
     border: 0px;
+    height: auto;
+    width: auto;
+}
+.btn-2 {
+    padding: 15px;
+    color: white;
+    background-color: rgb(255, 81, 17);
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 0px;
+    height: auto;
+    width: auto;
 }
 
 .count {
     color: red;
+}
+
+.heading {
+    color: cyan;
 }
